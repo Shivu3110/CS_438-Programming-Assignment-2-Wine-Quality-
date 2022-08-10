@@ -23,7 +23,7 @@ In this assignment, the task is to develop a parallel machine learning model in 
         
         1.	Spark-submit test.py
 
-**How to set up the cloud environment and run the model training and the application prediction without docker**
+**How to set up the cloud environment and run the model training and the application prediction with docker**
 
 **Following are the steps to run the application in docker in Amazon AWS:**
 
