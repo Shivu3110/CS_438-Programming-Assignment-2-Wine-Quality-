@@ -1,4 +1,4 @@
-# CS-438-Progamming-Assignmant-2
+# CS-438-Progamming-Assignment-2
 
 **Description**
 
@@ -9,6 +9,7 @@ In this assignment our task is to develop a parallel machine learning model in A
 
 
 **How to set-up the cloud environment and run the model training and the application prediction without docker**
+
 **Following are the steps to setup cloud environment:**
 
 1.	Navigate to Amazon AWS website i.e “https://aws.amazon.com/
@@ -20,6 +21,7 @@ In this assignment our task is to develop a parallel machine learning model in A
 7.	From the command line ssh into the ec2 machine from our local system
 8.	Copy application files and folder from local system into the EC2 instance.
 9.	Run the following command to build the model 
+
         1.	Spark-submit test.py
 
 
@@ -27,15 +29,24 @@ In this assignment our task is to develop a parallel machine learning model in A
 **Following are the steps to run application in docker in Amazon AWS:**
 
 •	Login to Amazon AWS account.
+
 •	SSH into EC2 instance from local machine.
+
 •	Install docker into the EC2 instance by using following commands:
+
     o	sudo yum install docker
+    
     o	sudo service docker start
+    
     o	sudo usermod -a -G docker ec2-user
+    
 •	Navigate to directory with application files.
+
 •	Run following command to build image and run container:
-    o	docker build -t winequalityprediction .
-    o	docker run -p 80:80 winequalityprediction .
+
+    o	docker build -t winequalityprediction.
+    
+    o	docker run -p 80:80 winequalityprediction.
 
 
 
