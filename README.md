@@ -47,6 +47,8 @@ In this assignment, the task is to develop a parallel machine learning model in 
         o	docker build -t winequalityprediction
         
         o	docker run -p 80:80 winequalityprediction
+        
+**F1 Score: 0.55625**
 
 
 
